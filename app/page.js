@@ -15,7 +15,7 @@ export default function Home() {
         />
         <p className="text-6xl md:absolute bottom-[20%] w-full text-center">Coming soon</p>
         <div className="w-full flex items-center m-auto justify-center md:absolute bottom-0">{socials.map(social => (
-          <a className="w-1/8" key={social.image}> 
+          <a className="w-1/8" key={social.image} target="_blank" href={social.link}> 
             <Image
               src={social.image}
               alt="Descriptive text for the image"
