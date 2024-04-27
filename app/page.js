@@ -40,7 +40,7 @@ const socials = [
     image: "/socials/telegram.jpeg"
   },
   {
-    link: "https://twitter.com/hellokittyxmeme",
+    link: "https://twitter.com/hellokittymemex",
     image: "/socials/twitter.jpeg"
   },
   {
