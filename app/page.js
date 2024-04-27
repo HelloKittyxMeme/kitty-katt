@@ -34,19 +34,15 @@ export default function Home() {
 
 const socials = [
   {
-    link: "",
-    image: "/socials/discord.jpeg",
-  },
-  {
-    link: " ",
+    link: "https://t.me/hellokittyxmeme",
     image: "/socials/telegram.jpeg"
   },
   {
-    link: " ",
+    link: "https://twitter.com/hellokittyxmeme",
     image: "/socials/twitter.jpeg"
   },
   {
-    link: " ",
+    link: "https://dexscreener.com/solana/4sfytpfkjctkjx7x5jflc2xhtrp2hktcruiumdcdqhwv",
     image: "/socials/dexscreener.jpeg"
   }
 ]
