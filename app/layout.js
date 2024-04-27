@@ -5,7 +5,7 @@ const myFont = localFont({ src: '../public/fonts/Boldins.ttf' })
 
 export const metadata = {
   title: "$Kitty",
-  description: "",
+  description: "hello. we are $kitty. ca: FWAyhDQwGczixbQigkE26A4UYwfCeoqRD5qSxJ8XH9aS",
 };
 
 export default function RootLayout({ children }) {

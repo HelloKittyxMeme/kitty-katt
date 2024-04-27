@@ -28,7 +28,7 @@ export default function Home() {
           </a>
         ))}</div>
       </div>
-      <p className="w-10/12 md:w-1/2 m-auto text-center md:text-3xl">hello. we are $kitty. ca: FWAyhDQwGczixbQigkE26A4UYwfCeoqRD5qSxJ8XH9aS</p>
+      <p className="w-10/12 md:w-1/2 m-auto text-center md:text-3xl">FWAyhDQwGczixbQigkE26A4UYwfCeoqRD5qSxJ8XH9aS</p>
 
     </div>
   );
