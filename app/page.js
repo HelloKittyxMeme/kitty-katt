@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div className="bg-white min-w-screen min-h-screen text-black flex flex-col justify-center">
       <div className="w-full md:w-1/2  m-auto flex flex-col relative" >
+        <p className="text-6xl md:absolute top-[10%] w-full text-center mr-10">$Kitty   </p>
         <Image
           src="/kitty.jpeg"
           alt="Descriptive text for the image"
@@ -15,7 +16,7 @@ export default function Home() {
         />
         <p className="text-6xl md:absolute bottom-[20%] w-full text-center">Coming soon</p>
         <div className="w-full flex items-center m-auto justify-center md:absolute bottom-0">{socials.map(social => (
-          <a className="w-1/8" key={social.image} target="_blank" href={social.link}> 
+          <a className="w-1/8" key={social.image} target="_blank" href={social.link}>
             <Image
               src={social.image}
               alt="Descriptive text for the image"
@@ -27,6 +28,7 @@ export default function Home() {
           </a>
         ))}</div>
       </div>
+      <p className="w-10/12 md:w-1/2 m-auto text-center md:text-3xl">hello. we are $kitty. ca: FWAyhDQwGczixbQigkE26A4UYwfCeoqRD5qSxJ8XH9aS</p>
 
     </div>
   );
