@@ -16,7 +16,7 @@ export default function Home() {
         />
         <p className="text-6xl md:absolute bottom-[20%] w-full text-center">Coming soon</p>
         <div className="w-full flex items-center m-auto justify-center md:absolute bottom-0">{socials.map(social => (
-          <a className="w-1/8" key={social.image} target="_blank" href={social.link}>
+          <a className="w-1/8 max-w-[100px] md:max-w-[133px]" key={social.image} target="_blank" href={social.link}>
             <Image
               src={social.image}
               alt="Descriptive text for the image"
@@ -35,6 +35,10 @@ export default function Home() {
 }
 
 const socials = [
+  {
+    link: "https://www.dextools.io/app/en/solana/pair-explorer/4sFYTPFKJCtkJX7X5jFLc2XhTRp2hKTcRUiumdCDqHwv?t=1714236234635",
+    image: "/socials/dextools.png"
+  },
   {
     link: "https://t.me/hellokittyxmeme",
     image: "/socials/telegram.jpeg"
